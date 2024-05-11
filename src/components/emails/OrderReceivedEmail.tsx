@@ -24,7 +24,9 @@ export default function OrderReceivedEmail({
   orderDate: string;
 }) {
   const baseUrl =
-    process.env.NODE_ENV === "production" ? "" : "http://localhost:3000";
+    process.env.NODE_ENV === "production"
+      ? "https://casecobra-119.vercel.app"
+      : "http://localhost:3000";
 
   return (
     <Html>
