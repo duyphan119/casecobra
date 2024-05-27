@@ -17,7 +17,7 @@ export default async function Home() {
                 <img src="/snake-1.png" alt="" className="w-full" />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
-                Yout Image on a{" "}
+                Your Image on a{" "}
                 <span className="bg-green-600 px-2 text-white">Custom</span>{" "}
                 Phone Case
               </h1>
